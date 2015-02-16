@@ -15,9 +15,9 @@ public class Adder
 		num2 = Integer.parseInt(secondNumber);
 
 		result = num1 + num2 ;
-		//result = firstNumber+"+"+secondNumber+"="+sum;
+		result = firstNumber+"+"+secondNumber+"="+sum;
 		//display results
-		//JOptionPane.showMessageDialog(null, result, "Results", JOptionPane . INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(null, result, "Results", JOptionPane . INFORMATION_MESSAGE);
 
 	}
 }
